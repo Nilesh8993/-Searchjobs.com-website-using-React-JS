@@ -14,6 +14,7 @@ import Sales from "../components/jobStreams/Sales";
 import ContactForm from "../components/ContactForm";
 import Profile from "../components/Profile/Profile";
 import DashBoardPage from "../components/DashBoardPage";
+import ContactForm1 from "../components/ContactForm1";
 
 const AppRouter = () => {
   const [userTag, setUserTag] = useState("");
@@ -53,7 +54,7 @@ const AppRouter = () => {
           <Route path="/management" element={<Management />}></Route>
           <Route path="/marketing" element={<Marketing />}></Route>
           <Route path="/sales" element={<Sales />}></Route>
-          <Route path="/contact" element={<ContactForm />}></Route>
+          <Route path="/contact" element={<ContactForm1 />}></Route>
           <Route path="/profile" element={<Profile />}></Route>
         </Routes>
       </div>
